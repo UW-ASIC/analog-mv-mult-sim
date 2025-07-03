@@ -14,6 +14,19 @@ Verilog-A
 * Non-idealities can be introduced by either instantiating SPICE components in xschem, or by modelling them in the verilog-a
 * System testbenches can be made in SPICE
 
+File Structure
+--------------
+
+src
+    top.va
+    module_name
+        top.va
+        other files.va
+        module_tb.va or module_tb.sch
+tb
+    transient_sim_tb.sch
+    ac_sim_tb.sch
+
 Python
 ======
 
